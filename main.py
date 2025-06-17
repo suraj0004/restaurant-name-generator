@@ -7,16 +7,17 @@ def main():
 
     cuisine =  st.sidebar.selectbox(
         "Select a Cuisine",
-        ["Italian", "Chinese", "Mexican", "Indian", "American"]
+        [ "Indian", "Italian", "Chinese", "Mexican", "American"]
     )
 
     if cuisine:
         result = generate_restaurant_name(cuisine)
-        st.header(result['restaurant_name'])
-        menu_items = result['menu_items'].split(', ')
+        print(result)  # For debugging purposes
+        st.header(result['restaurant_name'].strip().strip('"'))
+        menu_items = result['menu_items'].strip().strip('"').split(', ')
 
         for item in menu_items:
-            st.write(f"- {item}")
+            st.write(f"- {item.strip().strip('"').strip('\n')}")
 
 if __name__ == "__main__":
     main()
