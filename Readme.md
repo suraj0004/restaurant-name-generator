@@ -1,7 +1,7 @@
 # Restaurant Name Generator
 
 ## Description
-This project is a Streamlit web application that generates creative restaurant names and popular menu items based on a selected cuisine. It leverages the power of OpenAI's GPT-4o-mini model through LangChain to generate unique and relevant restaurant names and menu suggestions.
+This is a self-learning project where I explore and utilize LangChain and its components such as SequentialChain, LLMChain, PromptTemplate, and OpenAI. The project demonstrates how these tools can be combined to create a Streamlit web application that generates creative restaurant names and popular menu items based on a selected cuisine.
 
 ## Demo
 You can access the live demo of this project hosted on Streamlit Community Cloud at the following URL:
