@@ -3,6 +3,16 @@
 ## Description
 This project is a Streamlit web application that generates creative restaurant names and popular menu items based on a selected cuisine. It leverages the power of OpenAI's GPT-4o-mini model through LangChain to generate unique and relevant restaurant names and menu suggestions.
 
+## Demo
+You can access the live demo of this project hosted on Streamlit Community Cloud at the following URL:
+
+[https://restaurant-name-generator-nkrat3mgldfvyso4ba4cvm.streamlit.app/](https://restaurant-name-generator-nkrat3mgldfvyso4ba4cvm.streamlit.app/)
+
+
+## Screenshot
+
+![Screenshot](screenshot.png)
+
 ## Features
 - Select from multiple cuisines including Indian, Italian, Chinese, Mexican, and American.
 - Generate a creative restaurant name tailored to the selected cuisine.
@@ -61,7 +71,5 @@ This project requires an OpenAI API key to access the GPT model. Make sure to ob
 
 This project is open source and available under the MIT License.
 
-## Screenshot
 
-![Screenshot](screenshot.png)
 
