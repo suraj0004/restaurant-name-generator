@@ -13,11 +13,11 @@ def main():
     if cuisine:
         result = generate_restaurant_name(cuisine)
         print(result)  # For debugging purposes
-        st.header(result['restaurant_name'].strip().strip('"'))
-        menu_items = result['menu_items'].strip().strip('"').split(', ')
+        st.header(result['restaurant_name'])
+        menu_items = result['menu_items'].split(', ')
 
         for item in menu_items:
-            st.write(f"- {item.strip().strip('"').strip('\n')}")
+            st.write(f"- {item}")
 
 if __name__ == "__main__":
     main()
