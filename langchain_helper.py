@@ -7,7 +7,7 @@ from langchain.chains import LLMChain, SequentialChain
 
 llm = OpenAI(
     model="gpt-4o-mini",
-    temperature=0.5,
+    temperature=0.9,
     api_key=OPENAI_API_KEY,
 )
 
